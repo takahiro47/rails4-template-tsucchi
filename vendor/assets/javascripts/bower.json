@@ -1,0 +1,16 @@
+{
+  "name": "dsl-generated dependencies",
+  "dependencies": {
+    "jquery": "1.10.2",
+    "jquery-ujs": "latest",
+    "bootstrap": "~2.3.2",
+    "twitter": "latest",
+    "html5shiv": "latest",
+    "font-awesome": "latest",
+    "backbone": "latest",
+    "jquery-file-upload": "latest",
+    "wysihtml5": "latest",
+    "bootstrap-wysihtml5": "latest",
+    "jqBootstrapValidation": "latest"
+  }
+}

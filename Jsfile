@@ -1,0 +1,16 @@
+assets_path "assets/javascripts"
+
+# Puts files under ./vendor/assets/components
+group :vendor do
+  js 'jquery', '1.10.2'
+  js 'jquery-ujs'
+  js 'bootstrap', '~2.3.2'
+  js 'twitter'
+  js 'html5shiv'
+  js 'font-awesome'
+  js 'backbone'
+  js 'jquery-file-upload'
+  js 'wysihtml5'
+  js 'bootstrap-wysihtml5'
+  js 'jqBootstrapValidation'
+end

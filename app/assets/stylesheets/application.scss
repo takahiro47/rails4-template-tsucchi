@@ -8,7 +8,7 @@
 // You're free to add application-wide styles to this file and they'll appear at the top of the
 // compiled file, but it's generally better to create a new file per style scope.
 //
-//= require common/_reset
+//= require _reset
 //= require bootstrap/less/bootstrap
 //= require font-awesome/scss/font-awesome
 //= require_self
@@ -16,7 +16,6 @@
 //
 @charset 'UTF-8';
 @import 'compass';
-
 
 /* =Support Browsers
 -------------------------------------------------------------- */
@@ -32,12 +31,6 @@ $experimental-support-for-microsoft: true;
 $experimental-support-for-khtml: true;
 $experimental-support-for-svg: true;
 $experimental-support-for-pie: false;
-
-
-/* =Reset browser default css and Initialize with Bootstrap
--------------------------------------------------------------- */
-@import 'compass/reset-legacy';
-// @import 'bootstrap';
 
 
 /* =Render mode

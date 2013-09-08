@@ -134,6 +134,7 @@ gem 'thin'
 ## Test Tools
 ## ---------------------------------------------------------------------
 # RSpec
+# init $ rails g rspec:install
 gem 'rspec-rails', group: [:development, :test]
 
 
